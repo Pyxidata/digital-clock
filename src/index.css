@@ -1,0 +1,40 @@
+html {
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+body {
+    margin: 0px;
+    background-color: #151515;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+div {
+    position: absolute;
+    font-family: monospace;
+}
+
+button {
+    position: absolute;
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+button:active {
+    background-color: rgba(255, 255, 255, 0.4);
+}
