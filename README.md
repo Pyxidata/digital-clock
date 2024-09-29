@@ -39,7 +39,7 @@
 - `spd` sets the speed at which time goes (float value).
 
 <h1>
-  Completeness: 🟠🟠⚪⚪⚪
+  Completeness: 🟢🟢🟢🟢⚪
 </h1>
 
 <dl>
