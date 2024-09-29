@@ -1,14 +1,16 @@
-# Digital Clock
+# Description
 
 A cool little online digital clock.  
-Visit the [website](https://pyxidata.github.io/digital-clock).
+[Click here to open the website](https://pyxidata.github.io/digital-clock).
 
-Includes a floating island (my first ever 3D model) orbited by a sun, moon, 7 other planets, Pluto, and the ISS.  
-Positions of these celestial bodies are calculated based on the local position of the user (neat).  
-Clock runs at 10 FPS by default to reduce computing resource usage (with an option to increase this to 40).
+It includes a floating island (my first ever 3D model) orbited by a sun, moon, 7 other planets, Pluto, and the ISS.  
+Positions of these celestial bodies are calculated based on the local position of the user (neat!).  
+Clock runs at 40 FPS by default, but if you want it running in the background somewhere, you can reduce it to 10 FPS to somewhat reduce your electricity bill (use the UI).
 
 UI texts are green during day, blue during night, and orange during sunrise/sunset (sun altitude between -18 and -18 degrees, i.e. based on astronomical twilight).  
 House light turns on when sun altitude is below -6 degrees (i.e. based on civil twilight).
+
+Also, the ISS position is calculated from API data, meaning speed changes and time offsets won't have any effect on its position.
 
 #### Web link parameters
 - `lat` and `lon` overrides the local latitude and longitude (in degrees). Use them together; only setting one of them won't have any effect.
