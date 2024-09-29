@@ -19,7 +19,7 @@
 </p>
 
 <p>
-  UI texts are green during day, blue during night, and orange during sunrise/sunset (sun altitude between -18 and -18 degrees, i.e. based on astronomical twilight).  
+  UI texts are green during day, blue during night, and orange during sunrise/sunset (sun altitude between -18 and 18 degrees, i.e. based on astronomical twilight).  
   House light turns on when sun altitude is below -6 degrees (i.e. based on civil twilight).
   You can also see solar eclipses with this clock (but not lunar eclipses, cuz those are lame).
 </p>
