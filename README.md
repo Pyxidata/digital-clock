@@ -36,7 +36,7 @@
 - `rot` sets 3D rotation option. Options: `true` or `false`.
 - `det` sets detailed view option. Options: `true` or `false`.
 - `tOff` sets the time offset in milliseconds.
-- `spd` sets the speed at which time goes (float value).
+- `spd` sets the speed at which time passes (float value).
 
 <h1>
   Completeness: 🟢🟢🟢🟢⚪
