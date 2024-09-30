@@ -421,7 +421,7 @@ class Clock extends Component {
         this.timeOffset += (this.speed-1) * this.delay
         if (this.tz || this.tz === 0) {
             var tOff = this.tz - date.getTimezoneOffset();
-            date.setTime(date.getTime() + tOff * 60000 + this.timeOffset);
+            date.setTime(date.getTime() - tOff * 60000 + this.timeOffset);
         } else {
             date.setTime(date.getTime() + this.timeOffset);
         }
